@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(130, 153, 252);
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 50pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-items {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: lighter;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+body {
+    background: radial-gradient(50% 128% at 50% 47.56%,
+    #8095FF 0%,
+    #3D5AF1 0.01%,
+    #3D5AF1 61.98%,
+    #6880FF 100%);
+}
+
+
+#login-container {
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+
+    width: 55vw;
+    height: 35vw;
+
+    margin-top: 100px;
+
+    background: rgba(18, 0, 131, 0.54);
+    border-radius: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
